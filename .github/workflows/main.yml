@@ -1,7 +1,7 @@
 name: "Update CTF Events"
 on:
   schedule:
-  - cron: "*/5 * * * *"
+  - cron: "*/1 * * * *"
   
 jobs:
   build:
@@ -10,7 +10,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: "Acquiring permissions"
       run: chmod +x ./ctftime-scraper/main
-    - name: "Change dir"
-      run: cd ./ctftime-scraper
     - name: "Scraping CTFtime"
-      run: ./main 194091
+      run: ./ctftime-scraper/main 194091
