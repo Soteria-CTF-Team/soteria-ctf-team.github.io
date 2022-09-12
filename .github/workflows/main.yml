@@ -7,4 +7,5 @@ jobs:
   scrape_ctftime:
     runs-on: ubuntu-latest
     steps:
+    - name: "Scraping CTFtime"
       run: ./ctftime-scraper/main 194091
