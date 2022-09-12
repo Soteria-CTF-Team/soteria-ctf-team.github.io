@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - name: "Acquiring permissions"
+      run: chmod +x ./ctftime-scraper/main
     - name: "Scraping CTFtime"
       run: ./ctftime-scraper/main 194091
     - name: switching from HTTPS to SSH
