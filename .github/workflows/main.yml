@@ -1,0 +1,10 @@
+name: "Update CTF Events"
+on:
+  schedule:
+  - cron: */10 * * * *
+  
+jobs:
+  scrape_ctftime:
+    runs-on: ubuntu-latest
+    steps:
+      run: ./ctftime-scraper/main 194091
