@@ -1,11 +1,24 @@
 name: "Update CTF Events"
 on:
   schedule:
-  - cron: "*/10 * * * *"
+  - cron: "* * * * */2"
   
 jobs:
-  scrape_ctftime:
+  build:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v1
+    - name: "Acquiring permissions"
+      run: chmod +x ./ctftime-scraper/main
     - name: "Scraping CTFtime"
       run: ./ctftime-scraper/main 194091
+    - name: Commit files 
+      run: |
+        git config --local user.name  ${{ github.actor }}
+        git add .
+        git commit -m "Updated CTF Events"
+    - name: Push changes 
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true

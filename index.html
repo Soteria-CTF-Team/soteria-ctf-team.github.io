@@ -21,7 +21,8 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script src="/assets/js/ctftime.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/assets/js/populate_json.js"></script>
 
 </head>
 
@@ -46,15 +47,38 @@
 
   <main id="main">
 
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">Team Write-ups</h3>
+          <p class="section-description">Stay Tuned</p>
+        </div>
+          <!--
+        can be automated, like a pull request with a link to a markdown/ctftime/blog 
+          -->
+    </section>
+
 
     <section id="team">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Past Contests</h3>
+          <p class="section-description">We Never Give Up</p>
         </div>
-          Scraper is ready... working on Github Actions atm to update the json once in 48hrs/72
-      </div>
+          
+
+
+        <div class='row dashboard-cards'>
+          <div class='card col-md-4'>
+            <div class='card-title'>
+              
+            </div>
+            </div>
+          </div>
+        </div>  
+
     </section>
+
 
 
     <section id="team">
@@ -213,11 +237,11 @@
       <div class="container">
 
         <div class="social-footer">
-          <a href="https://ctftime.org/team/194091"><i class="bi bi-flag-fill ml"></i></a>
-          <a href="https://twitter.com/SOter14Team"><i class="bi bi-twitter ml"></i></a>
-          <a href="https://linkedin.com/soter14team"><i class="bi bi-linkedin ml"></i></a>
-          <a href="https://github.com/orgs/Soteria-CTF-Team"><i class="bi bi-github ml"></i></a>
-          <a href="https://facebook.com/soter14team"><i class="bi bi-facebook ml"></i></a>
+          <a target="_blank" href="https://ctftime.org/team/194091"><i class="bi bi-flag-fill ml"></i></a>
+          <a target="_blank" href="https://twitter.com/SOter14Team"><i class="bi bi-twitter ml"></i></a>
+          <a target="_blank" href="https://linkedin.com/soter14team"><i class="bi bi-linkedin ml"></i></a>
+          <a target="_blank" href="https://github.com/orgs/Soteria-CTF-Team"><i class="bi bi-github ml"></i></a>
+          <a target="_blank" href="https://facebook.com/soter14team"><i class="bi bi-facebook ml"></i></a>
         </div>
         <p>&copy; SOter14 Team.</p>
       </div>
