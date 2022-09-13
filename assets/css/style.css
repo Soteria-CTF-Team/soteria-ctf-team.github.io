@@ -668,3 +668,8 @@ section {
 }
 }
 
+#pagination-bar {
+  margin: 0 auto;
+  display: table;
+  padding-top: 60px;
+}
