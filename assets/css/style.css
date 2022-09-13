@@ -588,6 +588,12 @@ section {
   padding: 10px;
 }
 
+.first {
+  background: #D4AF37 !important;
+  background: linear-gradient(to bottom, #D4AF37 0%, #C5A028 100%) !important;
+  color: white !important;
+}
+
 .dashboard-cards .task-list {
   padding: 0 !important;
 }
