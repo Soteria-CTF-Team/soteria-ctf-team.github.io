@@ -1,0 +1,42 @@
+{
+    "posts": [
+    {
+        "date": "2022 Aug 17",
+        "blog": "n0s",
+        "title": "WMCTF22 Web Writeup",
+        "link": "https://github.com/anas-cherni/CTF-writeups/blob/main/WMCTF%202022/README.md"
+    },
+    {
+        "date": "2022 Sep 05",
+        "blog": "Raf & Adm Blog",
+        "title": "Phishy - Cyberdefenders Writeup",
+        "link": "https://4n6nk8s.tech/2022/09/05/CyberDefenders/Phishy/"
+    },
+    {
+        "date": "2022 Sep 06",
+        "blog": "Raf & Adm Blog",
+        "title": "Brave - Cyberdefenders Writeup",
+        "link": "https://4n6nk8s.tech/2022/09/06/CyberDefenders/brave/"
+    },
+    {
+        "date": "2022 Sep 06",
+        "blog": "Raf & Adm Blog",
+        "title": "African Falls - Cyberdefenders Writeup",
+        "link": "https://4n6nk8s.tech/2022/09/06/CyberDefenders/affrica-falls/"
+    },
+    {
+        "date": "2022 Sep 07",
+        "blog": "Raf & Adm Blog",
+        "title": "Escape Room - Cyberdefenders Writeup",
+        "link": "https://4n6nk8s.tech/2022/09/07/CyberDefenders/EscapeRoom/"
+    },
+    {
+        "date": "2022 Sep 13",
+        "blog": "Raf & Adm Blog",
+        "title": "CSAW'22 Forensics Writeup",
+        "link": "https://4n6nk8s.tech"
+    }
+    
+    
+]
+}

@@ -15,6 +15,11 @@ body {
 }
 
 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.iconlink {
   color: #ffffff;
   text-decoration: none;
 }
@@ -22,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #000000;
+  color: #4d4a4a;
   outline: none;
   text-decoration: none;
 }
@@ -384,13 +389,25 @@ section {
 }
 
 #team .member .pic {
-  margin-bottom: 15px;
+ /* 
   overflow: hidden;
-  height: 260px;
+  height: 100%; */
+  border-radius: 2%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  width: 120%;
+  transition: 0.5s all ease-in-out;
+}
+
+
+#team .member .pic:hover img {
+  transform: scale(1.3);
 }
 
 #team .member h4 {
@@ -466,7 +483,6 @@ section {
   transition: all 0.3s 0s ease-in;
   z-index: 1;
   width: calc(33.33333333% - 10px);
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -557,8 +573,8 @@ section {
 }
 
 .dashboard-cards .card .rank {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   top: 22px;
   right: 10px;
@@ -569,6 +585,7 @@ section {
   color: #333333;
   font-weight: 600;
   transition: all 0.2s ease;
+  padding: 10px;
 }
 
 .dashboard-cards .task-list {
@@ -609,3 +626,39 @@ section {
 .dashboard-cards .card-actions .btn:hover {
   color: #f36525;
 }
+
+
+.post-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+.post-list {
+  list-style-image: initial;
+}
+
+.post-container {
+  width: 100%;
+}
+
+@media only screen and (orientation: portrait){
+.post-meta {
+    color: rgb(153, 144, 131);
+}
+}
+
+@media only screen and (orientation: portrait){
+.post-meta {
+    font-size: 24px;
+    color: #828282;
+}
+}
+
+@media only screen and (orientation: portrait){
+.post-link {
+    display: block;
+}
+}
+

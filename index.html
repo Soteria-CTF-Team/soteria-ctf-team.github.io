@@ -23,6 +23,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="/assets/js/populate_json.js"></script>
+  <script src="/assets/js/populate_posts.js"></script>
+
 
 </head>
 
@@ -33,7 +35,7 @@
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <video id="background-video" autoplay loop muted>
-        <source src="./assets/img/bg1.webm" type="video/mp4">
+        <source src="./assets/img/bg.mp4" type="video/mp4">
       </video>
 
       <img src="./assets/img/logo1.png" alt="logo" class="soteria">
@@ -53,9 +55,16 @@
           <h3 class="section-title">Team Write-ups</h3>
           <p class="section-description">Stay Tuned</p>
         </div>
-          <!--
-        can be automated, like a pull request with a link to a markdown/ctftime/blog 
-          -->
+
+          <ul class="post-list row" style="padding-left:0">
+
+            <li class="post_container col-xs-12 col-sm-6">
+              <span class="post-meta"></span>
+              <h3 class="post-title" style="margin-top:12px">
+              </h3>
+            </li>
+
+          </ul>
     </section>
 
 
@@ -69,7 +78,7 @@
 
 
         <div class='row dashboard-cards'>
-          <div class='card col-md-4'>
+          <div class='card col-md-2'>
             <div class='card-title'>
               
             </div>
@@ -237,13 +246,13 @@
       <div class="container">
 
         <div class="social-footer">
-          <a target="_blank" href="https://ctftime.org/team/194091"><i class="bi bi-flag-fill ml"></i></a>
-          <a target="_blank" href="https://twitter.com/SOter14Team"><i class="bi bi-twitter ml"></i></a>
-          <a target="_blank" href="https://linkedin.com/soter14team"><i class="bi bi-linkedin ml"></i></a>
-          <a target="_blank" href="https://github.com/orgs/Soteria-CTF-Team"><i class="bi bi-github ml"></i></a>
-          <a target="_blank" href="https://facebook.com/soter14team"><i class="bi bi-facebook ml"></i></a>
+          <a class="iconlink" target="_blank" href="https://ctftime.org/team/194091"><i class="bi bi-flag-fill ml"></i></a>
+          <a class="iconlink" target="_blank" href="https://twitter.com/SOter14Team"><i class="bi bi-twitter ml"></i></a>
+          <a class="iconlink" target="_blank" href="https://linkedin.com/soter14team"><i class="bi bi-linkedin ml"></i></a>
+          <a class="iconlink" target="_blank" href="https://github.com/orgs/Soteria-CTF-Team"><i class="bi bi-github ml"></i></a>
+          <a class="iconlink" target="_blank" href="https://facebook.com/soter14team"><i class="bi bi-facebook ml"></i></a>
         </div>
-        <p>&copy; SOter14 Team.</p>
+        <p style="color: white">&copy; SOter14 Team.</p>
       </div>
     </section>
 
