@@ -482,9 +482,15 @@ section {
   text-align: left;
   transition: all 0.3s 0s ease-in;
   z-index: 1;
-  width: calc(33.33333333% - 10px);
+  width: calc(33.33333333% - 10px); 
   transition: all 0.3s ease;
 }
+
+@media only screen and (orientation: portrait){
+  .dashboard-cards .card {
+      width: calc(100% - 10px);
+  }
+  }
 
 .dashboard-cards .card:hover {
   box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
@@ -671,5 +677,5 @@ section {
 #pagination-bar {
   margin: 0 auto;
   display: table;
-  padding-top: 60px;
+  padding-top: 60px;  
 }
