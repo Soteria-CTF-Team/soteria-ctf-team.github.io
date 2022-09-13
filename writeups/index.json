@@ -25,16 +25,16 @@
         "link": "https://github.com/anas-cherni/CTF-writeups/tree/main/Imaginary%20CTF%202022"
     },
     {
-        "date": "2022 Aug 19",
-        "blog": "m0ngi",
-        "title": "ASC Wargames 2022 Quals",
-        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/ASC%20Wargames%202022%20Quals"
-    },
-    {
         "date": "2022 Aug 23",
         "blog": "m0ngi",
         "title": "Samsung Hacker's Playground 2022",
         "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/Hacker's%20Playground%202022/README.md"
+    },
+    {
+        "date": "2022 Aug 19",
+        "blog": "m0ngi",
+        "title": "ASC Wargames 2022 Quals",
+        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/ASC%20Wargames%202022%20Quals"
     },
     {
         "date": "2022 Aug 24",
@@ -49,32 +49,8 @@
         "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/CTFZone%202022/README.md"
     },
     {
-        "date": "2022 Sep 05",
-        "blog": "Raf & Adm Blog",
-        "title": "Phishy - Cyberdefenders Writeup",
-        "link": "https://4n6nk8s.tech/2022/09/05/CyberDefenders/Phishy/"
-    },
-    {
-        "date": "2022 Sep 06",
-        "blog": "Raf & Adm Blog",
-        "title": "Brave - Cyberdefenders Writeup",
-        "link": "https://4n6nk8s.tech/2022/09/06/CyberDefenders/brave/"
-    },
-    {
-        "date": "2022 Sep 06",
-        "blog": "Raf & Adm Blog",
-        "title": "African Falls - Cyberdefenders Writeup",
-        "link": "https://4n6nk8s.tech/2022/09/06/CyberDefenders/affrica-falls/"
-    },
-    {
-        "date": "2022 Sep 07",
-        "blog": "Raf & Adm Blog",
-        "title": "Escape Room - Cyberdefenders Writeup",
-        "link": "https://4n6nk8s.tech/2022/09/07/CyberDefenders/EscapeRoom/"
-    },
-    {
         "date": "2022 Sep 13",
-        "blog": "Raf & Adm Blog",
+        "blog": "raf&adm Blog",
         "title": "CSAW'22 Quals Forensics Writeup",
         "link": "https://4n6nk8s.tech"
     },
