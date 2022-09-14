@@ -1,66 +1,64 @@
 {
     "posts": [
-    {
-        "date": "2022 Jan 29",
-        "blog": "m0ngi",
-        "title": "National Cyber Security Congress",
-        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/NCSC"
-    },
-    {
-        "date": "2022 May 7",
-        "blog": "m0ngi",
-        "title": "Securinets 2022 CTF Quals",
-        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/Securinets%20CTF%20Quals"
-    },
-    {
-        "date": "2022 May 24",
-        "blog": "m0ngi",
-        "title": "HackTheBox - Cyber Apocalypse",
-        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/Hack%20The%20Box%20-%20Cyber%20Apocalypse"
-    },
-    {
-        "date": "2022 Jul 22",
-        "blog": "n0s",
-        "title": "ImaginaryCTF 2022",
-        "link": "https://github.com/anas-cherni/CTF-writeups/tree/main/Imaginary%20CTF%202022"
-    },
-    {
-        "date": "2022 Aug 23",
-        "blog": "m0ngi",
-        "title": "Samsung Hacker's Playground 2022",
-        "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/Hacker's%20Playground%202022/README.md"
-    },
-    {
-        "date": "2022 Aug 19",
-        "blog": "m0ngi",
-        "title": "ASC Wargames 2022 Quals",
-        "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/ASC%20Wargames%202022%20Quals"
-    },
-    {
-        "date": "2022 Aug 24",
-        "blog": "n0s",
-        "title": "WMCTF22 Web Writeup",
-        "link": "https://github.com/anas-cherni/CTF-writeups/blob/main/WMCTF%202022/README.md"
-    },
-    {
-        "date": "2022 Aug 26",
-        "blog": "m0ngi",
-        "title": "CTFZone 2022",
-        "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/CTFZone%202022/README.md"
-    },
-    {
-        "date": "2022 Sep 13",
-        "blog": "raf&adm Blog",
-        "title": "CSAW'22 Quals Forensics Writeup",
-        "link": "https://4n6nk8s.tech/2022/09/12/Writeups/csaw2022/"
-    },
-    {
-        "date": "2022 Sep 13",
-        "blog": "n0s", 
-        "title": "CSAW'22 Quals Web Writeup",
-        "link": "https://github.com/anas-cherni/CTF-writeups/blob/main/CSAW%20quals%202k2022%20-%20full%20web/writeup.md"
-    }
-    
-    
-]
+        {
+            "date": "2022 Jan 29",
+            "blog": "m0ngi",
+            "title": "National Cyber Security Congress",
+            "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/NCSC"
+        },
+        {
+            "date": "2022 May 7",
+            "blog": "m0ngi",
+            "title": "Securinets 2022 CTF Quals",
+            "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/Securinets%20CTF%20Quals"
+        },
+        {
+            "date": "2022 May 24",
+            "blog": "m0ngi",
+            "title": "HackTheBox - Cyber Apocalypse",
+            "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/Hack%20The%20Box%20-%20Cyber%20Apocalypse"
+        },
+        {
+            "date": "2022 Jul 22",
+            "blog": "n0s",
+            "title": "ImaginaryCTF 2022",
+            "link": "https://blog.anas-cherni.me/2022/09/05/imaginary%20ctf%202022/"
+        },
+        {
+            "date": "2022 Aug 23",
+            "blog": "m0ngi",
+            "title": "Samsung Hacker's Playground 2022",
+            "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/Hacker's%20Playground%202022/README.md"
+        },
+        {
+            "date": "2022 Aug 19",
+            "blog": "m0ngi",
+            "title": "ASC Wargames 2022 Quals",
+            "link": "https://github.com/M0ngi/CTF-Writeups/tree/main/2022/ASC%20Wargames%202022%20Quals"
+        },
+        {
+            "date": "2022 Aug 24",
+            "blog": "n0s",
+            "title": "WMCTF22 Web Writeup",
+            "link": "https://blog.anas-cherni.me/2022/09/05/wmctf2022/"
+        },
+        {
+            "date": "2022 Aug 26",
+            "blog": "m0ngi",
+            "title": "CTFZone 2022",
+            "link": "https://github.com/M0ngi/CTF-Writeups/blob/main/2022/CTFZone%202022/README.md"
+        },
+        {
+            "date": "2022 Sep 13",
+            "blog": "raf&adm Blog",
+            "title": "CSAW'22 Quals Forensics Writeup",
+            "link": "https://4n6nk8s.tech/2022/09/12/Writeups/csaw2022/"
+        },
+        {
+            "date": "2022 Sep 13",
+            "blog": "n0s",
+            "title": "CSAW'22 Quals Web Writeup",
+            "link": "https://blog.anas-cherni.me/2022/09/14/csaw2k22/"
+        }
+    ]
 }
