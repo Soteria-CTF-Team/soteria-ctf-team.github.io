@@ -12,7 +12,7 @@ $(function() {
           var rank = item.place;
           //add values inside divs
           var rankclass = rank == 1 ? "rank first" : "rank";
-          $(cards).find(".card-title").html("<h2>"+ctfname+"<span><small>Points: "+score+"</small><small>Weight: "+weight+"</></span> </h2> <div class='"+rankclass+"'><h4>"+rank+"</h4></div>");
+          $(cards).find(".card-title").html("<h2>"+ctfname+"<span><small>CTF Points: "+score+"</small><small>Rating Points: "+weight+"</></span> </h2> <div class='"+rankclass+"'><h4>"+rank+"</h4></div>");
           $(cards).show() //show cards
           $(cards).appendTo($(".dashboard-cards")) //append to container
         });
