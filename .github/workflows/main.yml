@@ -10,6 +10,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: "Acquiring permissions"
       run: chmod +x ./ctftime-scraper/main
+    - name: delete old json
+      run: rm output/194091.json
     - name: "Scraping CTFtime"
       run: ./ctftime-scraper/main 194091
     - name: Commit files 
