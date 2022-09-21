@@ -15,7 +15,7 @@ jobs:
     - name: "Scraping CTFtime"
       run: ./ctftime-scraper/main 194091
     - name: show json
-      run: cat output/194091.json
+      run: cat ./ctftime-scraper/output/194091.json
     - name: Commit files 
       run: |
         git config user.name github-actions
