@@ -17,8 +17,4 @@ jobs:
         git config --local user.name  ${{ github.actor }}
         git add .
         git commit -m "Updated CTF Events"
-    - name: Push changes 
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
+        git push
