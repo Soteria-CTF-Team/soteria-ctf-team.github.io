@@ -2,7 +2,7 @@ $(function() {
     //hide first div or remove after append using `$(".card:first").remove()`
     $(".card:first").hide()
     $.ajax({
-      url: "../../output/194091.json",
+      url: "../../ctftime-scraper/output/194091.json",
       success: function(result) {
         $.each(result.seasons[0].ctfs, function(index, item) {
           var cards = $(".card:first").clone() //clone first divs
