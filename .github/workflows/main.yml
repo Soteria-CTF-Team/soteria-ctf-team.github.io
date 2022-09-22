@@ -8,15 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: "Acquiring permissions"
+    - name: "Scraping CTFtime"
       run: |
         cd ctftime-scraper
         chmod +x main
-    - name: "Scraping CTFtime"
-      run: ./main 194091
+        ./main 194091
     - name: Commit files 
       run: |
-        cd ..
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
