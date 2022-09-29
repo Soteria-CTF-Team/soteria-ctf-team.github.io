@@ -1,7 +1,7 @@
 name: "Update CTF Events"
 on:
   schedule:
-  - cron: "0 0 * * 1,3,5" 
+  - cron: "*/5 * * * *" 
   
 jobs:
   build:
@@ -11,6 +11,7 @@ jobs:
     - name: "Scraping CTFtime"
       run: |
         cd ctftime-scraper
+        rm -rf cache
         chmod +x main
         ./main 194091
     - name: Commit files 
