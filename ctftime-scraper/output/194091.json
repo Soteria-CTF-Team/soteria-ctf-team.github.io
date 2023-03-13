@@ -2,12 +2,12 @@
  "seasons": [
   {
    "year": 2023,
-   "place": 131,
+   "place": 166,
    "points": 33.642,
    "countryPlace": 1,
    "ctfs": [
     {
-     "id": "fc710fda-01b5-4a39-ba15-df5081eb3a1d",
+     "id": "077885c7-1dad-4b10-9777-84335090c8e7",
      "place": 8,
      "name": "bi0sCTF 2022",
      "points": 6588,
@@ -22,105 +22,105 @@
    "countryPlace": 1,
    "ctfs": [
     {
-     "id": "fd5a32f7-3147-4348-a375-b45e4eba7202",
+     "id": "7a7dae86-fef4-41b7-b9a1-fb4c9d19eeb4",
      "place": 10,
      "name": "NahamCon EU 2022 CTF",
      "points": 5050,
      "ratings": 11.747
     },
     {
-     "id": "e2eba779-c26e-4e8f-a37e-2eaac2cc49cb",
+     "id": "4ed11743-8fda-4ed3-b4f1-6775367e1736",
      "place": 15,
      "name": "CSAW CTF Final Round 2022",
      "points": 2782,
      "ratings": 0
     },
     {
-     "id": "66c9ae0b-d09f-4f0b-86ee-08bb16835cf3",
+     "id": "7b0057ba-49ae-4004-801d-997701779195",
      "place": 15,
      "name": "DownUnderCTF 2022 (Online)",
      "points": 7861,
      "ratings": 17.354
     },
     {
-     "id": "cfe02d62-5b1a-4d71-a318-35f6b06f8a50",
+     "id": "850f905e-76d3-473a-bcc6-1f2c5c666ae6",
      "place": 14,
      "name": "CSAW CTF Qualification Round 2022",
      "points": 7628,
      "ratings": 21.713
     },
     {
-     "id": "ada5187d-ad14-4e24-9101-16872f6ab4c5",
+     "id": "16494ed4-0a39-4738-8c76-71da9a3c16c2",
      "place": 26,
      "name": "CTFZone 2022",
      "points": 104.55,
      "ratings": 59.157
     },
     {
-     "id": "e3b17b80-5e8c-4da2-a102-e366df2634bd",
+     "id": "63d88ea7-2748-43e2-acfc-31b35e723340",
      "place": 21,
      "name": "Hacker's Playground 2022",
      "points": 1776,
      "ratings": 9.417
     },
     {
-     "id": "ea3511cd-2c3d-4182-acd3-13983aa655bb",
+     "id": "02b80f7f-fa2a-4520-8950-1754d8b0eb4b",
      "place": 23,
      "name": "WMCTF2022",
      "points": 1657,
      "ratings": 7.756
     },
     {
-     "id": "320f19b4-b0f2-4aec-84d5-285e543f0954",
+     "id": "f51789e3-bb2b-4982-b7d7-d9baf6327c02",
      "place": 20,
      "name": "nullcon Goa HackIM CTF 2022",
      "points": 1637,
      "ratings": 7.113
     },
     {
-     "id": "d21daba2-b095-4f56-8521-4c5d5d9e457c",
+     "id": "b9369f33-8041-48a3-8d76-808d720741f3",
      "place": 4,
      "name": "SHELLCTF 2022",
      "points": 5952,
      "ratings": 29.7
     },
     {
-     "id": "1d0c1e68-5622-431e-b606-cda89b6e5546",
+     "id": "54da1dd2-a297-46f6-830a-7a204b3dcf2b",
      "place": 1,
      "name": "Arab Security Cyber Wargames 2022 Qualifications",
      "points": 11300,
      "ratings": 50
     },
     {
-     "id": "d280c67c-9c18-4c82-8f58-685732072abf",
+     "id": "90ca367b-64d7-4969-862e-f755ff2e0657",
      "place": 5,
      "name": "UACTF 2022",
      "points": 9182,
      "ratings": 18.133
     },
     {
-     "id": "95397817-e381-4051-853e-62ec3f0837ec",
+     "id": "b870b24f-c1c7-4f18-be99-f02c62a45122",
      "place": 5,
      "name": "TFC CTF 2022",
      "points": 8968,
      "ratings": 27.1
     },
     {
-     "id": "3fbabb89-3610-4491-88d0-a3c6e52e40f1",
+     "id": "0e24aa81-8296-4468-bac0-3e245623cfb5",
      "place": 24,
      "name": "DiceCTF @ HOPE 2022",
      "points": 5253,
      "ratings": 24.542
     },
     {
-     "id": "23ca1762-344e-419d-b2f2-884a196f38b6",
+     "id": "83a243e3-7f7d-4460-ad4d-fefa360f6098",
      "place": 1,
      "name": "BDSec CTF 2022",
      "points": 3220,
      "ratings": 24.46
     },
     {
-     "id": "7b434417-2f2a-46c2-ab30-483264e1c26a",
+     "id": "b988ec1a-a4bc-444d-808c-e775e5a4b564",
      "place": 23,
      "name": "ImaginaryCTF 2022",
      "points": 4600,
