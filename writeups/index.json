@@ -58,7 +58,31 @@
             "date": "2022 Sep 13",
             "blog": "n0s",
             "title": "CSAW'22 Quals Web Writeup",
-            "link": "https://blog.anas-cherni.me/2022/09/14/csaw2k22/"
+            "link": "https://www.nzeros.me/2022/09/14/csaw2k22/"
+        },
+        {
+            "date": "2023 Aug 7",
+            "blog": "fir3cr4ckers",
+            "title": "Securinets CTF Quals 2023 - Web Writeups",
+            "link": "https://yassine-belkhadem.tech/blog/securinets-quals-2k23"
+        },
+        {
+            "date": "2023 Aug 7",
+            "blog": "4n6nk8s",
+            "title": "Securinets Quals CTF 2023 - Forensics and Steganogrpahy Writeups",
+            "link": "https://4n6nk8s.tech/2023/08/06/Writeups/quals23/"
+        },
+        {
+            "date": "2023 Aug 7",
+            "blog": "admida0ui",
+            "title": "Securinets Quals CTF 2023 - Quantum, Forensics, and Firmware Writeups",
+            "link": "https://admida0ui.tech/2023/08/06/quals23/"
+        },
+        {
+            "date": "2023 Aug 8",
+            "blog": "n0s",
+            "title": "Securinets CTF QUALS 2K23 - WEB Writeups",
+            "link": "https://www.nzeros.me/2023/08/08/securinets%20quasl%202k23/"
         }
     ]
 }
